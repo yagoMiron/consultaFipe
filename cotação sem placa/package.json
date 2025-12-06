@@ -1,12 +1,22 @@
 {
   "type": "module",
   "dependencies": {
+    "axios": "^1.13.2",
     "cors": "^2.8.5",
-    "express": "^5.2.1",
-    "fipe-promise": "^1.0.0"
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6"
-  }
+  },
+  "name": "cotacao-sem-placa",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Yago Verzas Miron",
+  "license": "ISC",
+  "description": "API para a consulta da tabela fipe"
 }
